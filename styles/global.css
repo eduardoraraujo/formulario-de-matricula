@@ -5,7 +5,7 @@
 }
 
 :root {
-  --font-family: "Poppings", sans-serif;
+  --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5rem var(--font-family);
   --text-sm: 400 0.875rem/1.5rem var(--font-family);
 
@@ -26,4 +26,17 @@
 
 body {
   overflow: hidden;
+
+  font: var(--text);
+  color: var(--text-secondary);
+}
+
+h1,
+h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
